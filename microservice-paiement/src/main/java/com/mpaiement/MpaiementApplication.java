@@ -7,6 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MpaiementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MpaiementApplication.class, args);
+		//SpringApplication.run(MpaiementApplication.class, args)
+
+		String ville = "LES AVENIERES VEYRINS THUELLIN";
+		System.out.println(ville.length());
+
 	}
 }
